@@ -1,0 +1,23 @@
+Basic-
+
+This is a version of ArdenWARE 1.0 for multible devices, some are below:
+
+Raspberry Pi
+VMware
+kvm-and-xen
+MS-HyperV
+OpenStack-Cloud
+
+Those are some. So here is the basic readme for the real ArdenWARE 1.0:
+
+-Basic-
+
+This is ArdenWARE 1.0, this is a test image for ArdenWARE. The other test image can be installed with ver13.tem! All .tem files
+are ran with terminal. Or run setupextra.tem for a full installion.
+
+-Custom Commands (Full Installion Version Only)-
+
+mbi- a base for making a custom command.
+ardenmk- fully update system (DO NOT USE TO UPDATE REGULARLY)
+readme- opens readme in terminal
+system-cksum- performs a checksum on important files of the os

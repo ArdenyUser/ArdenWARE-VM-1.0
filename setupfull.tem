@@ -1,0 +1,21 @@
+echo "Installing custom commands, see README for more data."
+nano .bashrc
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias ardenmk='sudo apt-get update; sudo apt-get upgrade; echo "ardenmk"'
+nano .bashrc
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias mbi='nano .bashrc; alias ll='ls -l'; alias la='ls -A'; alias l='ls -CF'; echo "mbi"'
+nano .bashrc
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias readme='echo -Basic-; echo This is ArdenWARE 1.0, this is a test image for ArdenWARE. The other test image can be installed with ver13.tem! All .tem files; echo are ran with terminal. Or run setupextra.tem for a full installion.; echo -Custom Commands (Full Installion Version Only)-; echo mbi- a base for making a custom command.; echo ardenmk- fully update system DO NOT USE TO UPDATE REGULARLY; echo readme- opens readme in terminal; echo system-cksum- performs a checksum on important files of the os'
+nano .bashrc
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias system-cksum='cksum _service; cksum config.kiwi; cksum config.sh'
